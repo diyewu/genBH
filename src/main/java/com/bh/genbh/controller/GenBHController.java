@@ -40,7 +40,7 @@ public class GenBHController {
             cfg.setId("id");
             cfg.setTable(table);
             cfg.setParentId("parent_id");
-            cfg.setSortField("priority");
+            cfg.setSortField("id");
             treePathService.buildPath(parentId, cfg);
         }
     }
